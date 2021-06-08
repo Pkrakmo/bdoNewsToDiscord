@@ -1,0 +1,22 @@
+{
+  "name": "bdonewstodiscord",
+  "version": "1.0.0",
+  "description": "Will post news from DBO newspage to discord through discord webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Krakmo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "@types/node-fetch": "^2.5.10",
+    "@types/puppeteer": "^5.4.3"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^9.1.1",
+    "request": "^2.88.2"
+  }
+}
